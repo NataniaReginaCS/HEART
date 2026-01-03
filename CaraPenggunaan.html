@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<title>HEART - Heart Alert Response Training</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+	</head>
+
+	<body class="bg-gray-100 text-gray-800">
+		<!-- NavBar -->
+		<header
+			class="bg-gradient-to-r from-red-600 to-purple-900 text-white py-5 text-left px-6"
+		>
+			<button class="toggleSidebar fixed mt-1">
+				<i class="fas fa-bars text-xl"></i>
+			</button>
+			<a href="index.html">
+				<h1 class="text-2xl font-bold ml-10">
+					<i class="fas fa-heartbeat"></i>
+					HEART
+				</h1>
+				<p class="text-sm ml-10">Heart Alert Response Training</p>
+			</a>
+		</header>
+
+		<!-- Sidebar -->
+		<aside
+			id="sidebar"
+			class="fixed top-0 left-0 w-80 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 z-50"
+		>
+			<div
+				class="bg-gradient-to-r from-red-600 to-purple-900 w-full py-4 px-5 flex items-center"
+			>
+				<button class="toggleSidebar text-white">
+					<i class="fas fa-arrow-left text-xl"></i>
+				</button>
+				<a href="index.html" class="flex-grow text-white ml-8">
+					<h1 class="text-xl font-bold">
+						<i class="fas fa-heartbeat"></i>
+						HEART
+					</h1>
+					<p class="text-sm">Heart Alert Response Training</p>
+				</a>
+			</div>
+			<div class="p-6">
+				<nav class="flex flex-col gap-4">
+					<a href="CaraPenggunaan.html" class="px-4 py-2 font-semibold hover:text-gray-600"
+						>Cara Penggunaan</a
+					>
+				</nav>
+				<nav class="flex flex-col gap-4">
+					<a href="ProfilPengembang.html" class="px-4 py-2 font-semibold hover:text-gray-600"
+						>Profil Pengembang</a
+					>
+				</nav>
+			</div>
+		</aside>
+
+		<!-- ================= CARA PENGGUNAAN ================= -->
+        <section
+            id="materi-edukasi"
+            class="max-w-4xl mx-auto mt-10 bg-white p-6 rounded-lg shadow"
+        >
+            <h2 class="text-2xl font-bold mb-4 text-center">CARA PENGGUNAAN</h2>
+            <div class="space-y-4 text-lg text-gray-700 mt-10 text-justify">
+                <p>
+                    <strong class="block">1. Lapor Gejala</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        Pilih menu "LAPOR GEJALA", kemudian klik keluhan yang sedang dirasakan.
+                        Aplikasi akan menghitung skor otomatis dan menampilkan tingkat risiko
+                        serta saran tindakan.
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block">2. Materi Edukasi</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        Pilih menu "MATERI EDUKASI" untuk membaca informasi tentang serangan
+                        jantung, faktor risiko, gejala, pencegahan, dan langkah yang dapat
+                        dilakukan.
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block">3. Panggilan Darurat</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        Pilih menu "PANGGILAN DARURAT" untuk langsung menghubungi layanan
+                        gawat darurat (118) apabila kondisi memburuk atau hasil lapor gejala
+                        menunjukkan risiko tinggi.
+                    </span>
+                </p>
+            </div>
+
+		</section>
+
+		<!-- Script -->
+		<script src="sidebar.js"></script>
+	</body>
+</html>

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<title>HEART - Heart Alert Response Training</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+	</head>
+
+	<body class="bg-gray-100 text-gray-800">
+		<!-- NavBar -->
+		<header
+			class="bg-gradient-to-r from-red-600 to-purple-900 text-white py-5 text-left px-6"
+		>
+			<button class="toggleSidebar fixed mt-1">
+				<i class="fas fa-bars text-xl"></i>
+			</button>
+			<a href="index.html">
+				<h1 class="text-2xl font-bold ml-10">
+					<i class="fas fa-heartbeat"></i>
+					HEART
+				</h1>
+				<p class="text-sm ml-10">Heart Alert Response Training</p>
+			</a>
+		</header>
+
+		<!-- Sidebar -->
+		<aside
+			id="sidebar"
+			class="fixed top-0 left-0 w-80 h-full bg-white shadow-lg transform -translate-x-full transition-transform duration-300 z-50"
+		>
+			<div
+				class="bg-gradient-to-r from-red-600 to-purple-900 w-full py-4 px-5 flex items-center"
+			>
+				<button class="toggleSidebar text-white">
+					<i class="fas fa-arrow-left text-xl"></i>
+				</button>
+				<a href="index.html" class="flex-grow text-white ml-8">
+					<h1 class="text-xl font-bold">
+						<i class="fas fa-heartbeat"></i>
+						HEART
+					</h1>
+					<p class="text-sm">Heart Alert Response Training</p>
+				</a>
+			</div>
+			<div class="p-6">
+				<nav class="flex flex-col gap-4">
+					<a href="CaraPenggunaan.html" class="px-4 py-2 font-semibold hover:text-gray-600"
+						>Cara Penggunaan</a
+					>
+				</nav>
+				<nav class="flex flex-col gap-4">
+					<a href="ProfilPengembang.html" class="px-4 py-2 font-semibold hover:text-gray-600"
+						>Profil Pengembang</a
+					>
+				</nav>
+			</div>
+		</aside>
+
+		<!-- ================= MATERI EDUKASI ================= -->
+        <section
+            id="materi-edukasi"
+            class="max-w-4xl mx-auto mt-10 bg-white p-6 rounded-lg shadow"
+        >
+            <h2 class="text-2xl font-bold mb-4 text-center">MATERI EDUKASI</h2>
+
+            <img src="jantung.png" alt="Edukasi Jantung" class="w-1/2 mx-auto h-auto mb-4 rounded-lg shadow-md" />
+
+            <div class="space-y-4 text-lg text-gray-700 mt-10 text-justify">
+                <p>
+                    <strong class="block text-center">Definisi Serangan Jantung</strong>
+                    <div ></div>
+                    <span class="text-sm">
+                        Serangan jantung terjadi ketika aliran darah ke sebagian otot jantung
+                    tiba-tiba tersumbat. Sumbatan ini biasanya disebabkan oleh gumpalan darah
+                    di pembuluh darah jantung. Akibatnya, bagian jantung tersebut kekurangan
+                    oksigen sehingga jaringan jantung bisa rusak atau mati. <br /> 
+                    Sumbatan ini sering
+                    terjadi karena adanya penumpukan lemak (plak) di pembuluh darah. Jika plak
+                    tersebut pecah, dapat terbentuk gumpalan darah yang menutup aliran darah.
+                    Serangan jantung harus segera ditangani agar aliran darah bisa kembali
+                    normal dan kerusakan jantung dapat diminimalkan.
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block text-center">Gejala Serangan Jantung</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li>Gejala Umum Meliputi:</li>
+                            <li>Dada terasa sakit/tertekan/panas</li>
+                            <li>Nyeri dada menjalar ke leher, rahang, bahu, atau lengan kiri</li>
+                            <li>Napas terasa pendek atau sesak</li>
+                            <li>Jantung berdebar cepat atau tidak teratur</li>
+                            <li>Keringat dingin tanpa sebab</li>
+                            <li>Mual dan muntah</li>
+                            <li>Badan terasa dingin, lemas, dan pucat</li>
+                            <li>Merasa sangat cemas atau takut serasa akan meninggal</li>
+                            <li>Kepala terasa pusing berat atau hampir pingsan</li>
+                            <li>Tidak sadar/sulit dibangunkan</li>
+                        </ul>
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block text-center">Faktor Risiko</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        Faktor Risiko yang Bisa Dimodifikasi :
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li>Tekanan darah tinggi</li>
+                            <li>Diabetes (gula darah tinggi)</li>
+                            <li>Kolesterol tinggi</li>
+                            <li>Kebiasaan merokok</li>
+                            <li>Berat badan berlebih / jarang bergerak</li>
+                        </ul>
+
+                        Faktor Risiko yang Tidak Bisa Dimodifikasi :
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li>Usia (Pria berusia lebih dari 45 tahun dan wanita berusia lebih dari 55 tahun berisiko lebih besar terkena serangan jantung)</li>
+                            <li>Jenis Kelamin (Pria memiliki risiko lebih besar dibanding wanita)</li>
+                            <li>Riwayat penyakit jantung dalam keluarga</li>
+                        </ul>
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block text-center">Pencegahan</strong>
+                    <div></div>
+                    <span class="text-sm">
+                        Berikut Beberapa Hal yang Bisa Dilakukan untuk Mencegah Serangan Jantung :
+                        <ul class="list-disc list-inside ml-2 space-y-1">
+                            <li>Biasakan pola makan sehat (kurangi lemak jenuh dan garam)</li>
+                            <li>Olahraga teratur minimal 30 menit/hari</li>
+                            <li>Berhenti merokok atau hindari merokok</li>
+                            <li>Batasi konsumsi alkohol</li>
+                            <li>Cek kesehatan rutin (tekanan darah, kolesterol, gula darah)</li>
+                            <li>Jaga berat badan ideal</li>
+                            <li>Istirahat cukup (7-8 jam/hari)</li>
+                        </ul>
+                    </span>
+                </p>
+
+                <p>
+                    <strong class="block text-center">Penanganan Awal </strong>
+                    <div></div>
+                    <ol class="list-decimal list-inside ml-2 space-y-1 text-sm">
+                        <li>Segera hubungi layanan darurat</li>
+                        <li>Posisikan pasien dengan nyaman (sandarkan kepala dan bahu pasien dengan lutut sedikit ditekuk agar tubuh rileks serta longgarkan pakaian pasien agar pernapasan pasien lancar)</li>
+                        <li>Bila tersedia, minta pasien untuk mengunyah Aspirin 300 mg sebanyak 1 tablet (dengan catatan pasien tidak memiliki alergi)</li>
+                        <li>Perhatikan selalu kesadaran pasien</li>
+                        <li>Apabila pasien tidak sadarkan diri (tidak ada napas dan denyut nadi) lakukan resusitasi jantung paru atau pijat jantung.</li>
+                    </ol>
+                </p>
+
+                <p>
+                    <strong class="block text-center">Resusitasi Jantung Paru </strong>
+                    <div class="border-2 border-red-600 bg-red-100 p-4 rounded-lg">
+                        <ol class="list-decimal list-inside ml-2 space-y-1 text-sm">
+                            <li>Letakkan tumit satu tangan di tengah dada pasien (di antara kedua puting susu tepatnya di tulang taju pedang).</li>
+                            <li>Letakkan tangan lainnya di atas tangan pertama.</li>
+                            <li>Tekan dada dengan kecepatan 100-120x/menit.</li>
+                            <li>Kedalaman tekanan sekitar 5-6 cm.</li>
+                            <li>Biarkan dada kembali sepenuhnya setelah selesai kompresi.</li>
+                            <li>Jaga posisi tegak lurus dengan lengan lurus.</li>
+                            <li>Terus lakukan kompresi dada tanpa henti. Jika ada 2 orang terlatih, bergantian tiap menit untuk menghindari kelelahan.</li>
+                            <li>Hentikan jika korban mulai bernapas normal dan menunjukkan tanda kehidupan, jika penolong terlalu lelah untuk melanjutkan, dan ketika petugas medis sudah datang.</li>
+                        </ol>
+                    </div>
+                </p>
+                
+                <div class="flex justify-center">
+                    <a
+                        id="videoYt"
+                        href="https://youtu.be/8YREVVM2n7g?si=osyVvfoymg9BZxe7"
+                        target="_blank"
+                        class="inline-block bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700 my-6"
+                    >
+                        Tonton Video Resusitasi Jantung Paru
+                    </a>
+                </div>
+
+                <p>
+                    <strong class="block text-left">Referensi</strong>
+                    <div></div>
+                    <ul class="list-disc list-inside ml-2 space-y-1 text-sm font-semibold">
+                        <li>
+                            <a href="https://www.nhlbi.nih.gov/health/heartattack" target="_blank">National Heart, Lung, and Blood Institute. (2022, March 24). Heart attack - What is a heart attack? National Institutes of Health.</a>
+                        </li>
+                        <li>
+                            <a href="https://www.nhs.uk/conditions/heart-attack/prevention/" target="_blank">National Health Service. (2023, July 13). Prevention – Heart attack. NHS.</a>
+                        </li>
+                        <li>
+                            <a href="https://doi.org/10.1016/j.jacc.2025.01.001" target="_blank">Rao, S. V., et al. (2025). 2025 ACC/AHA/ACEP/NAEMSP/SCAI guideline for the management of patients with acute coronary syndromes. Journal of the American College of Cardiology.</a>
+                        </li>
+                        <li>
+                            <a href="https://www.sja.org.uk/firstaid-advice/heart-attack/" target="_blank">St John Ambulance. (2023, October 10). Heart attack – First aid advice. St John Ambulance.</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+		</section>
+
+		<!-- Script -->
+		<script src="sidebar.js"></script>
+	</body>
+</html>
